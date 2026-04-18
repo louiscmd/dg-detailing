@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -iE \"\\\\.\\(jpg|jpeg|png|avif|webp|gif\\)$\")",
+      "Bash(cp \"/Users/louisdestrebecq/Downloads/bmw z3.jpg\" /Users/louisdestrebecq/Websites/images/bmw-z3.jpg)",
+      "Bash(cp \"/Users/louisdestrebecq/Downloads/mercedes benz.avif\" /Users/louisdestrebecq/Websites/images/mercedes-benz.avif)",
+      "Bash(cp \"/Users/louisdestrebecq/Downloads/alloy detial.jpg\" /Users/louisdestrebecq/Websites/images/alloy-detail.jpg)",
+      "Bash(cp \"/Users/louisdestrebecq/Downloads/car interior.jpg\" /Users/louisdestrebecq/Websites/images/car-interior.jpg)",
+      "Bash(npx --version)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
